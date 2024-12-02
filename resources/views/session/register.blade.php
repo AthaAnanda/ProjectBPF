@@ -10,7 +10,7 @@
            background-repeat: no-repeat;">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Bagian Kiri -->
+            <!-- Left Section -->
             <div class="col-lg-6 text-center text-lg-start">
                 <div class="d-flex flex-column align-items-center align-items-lg-start">
                     <h1 class="text-white mb-3">Selamat Datang!</h1>
@@ -18,13 +18,13 @@
                 </div>
             </div>
 
-            <!-- Bagian Kanan -->
+            <!-- Right Section -->
             <div class="col-lg-6">
-                <div class="card z-index-0 shadow-lg">
+                <div class="card z-index-0 shadow-lg" style="padding: 20px; border-radius: 15px;">
                     <div class="card-header text-center pt-4">
                         <h5>Register</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="min-height: 600px;"> <!-- Adjusted height -->
                         <form role="form text-left" method="POST" action="/register">
                             @csrf
                             <div class="mb-3">
